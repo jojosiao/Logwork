@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 test.txt
-=======
 *.gem
 *.rbc
 /.config
@@ -51,4 +50,3 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
->>>>>>> 64cf25db50b8538126864606b791c00b859ce778
