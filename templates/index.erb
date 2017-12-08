@@ -1,0 +1,10 @@
+<% for @log in @lw.getlog %>
+<% lognumber, log = @log.split "|" %>
+<% lognumber = lognumber.strip %>
+<div><%= @log %><a href="/logs/view/<%= lognumber %>">view</a></div>
+<% end %>
+
+
+
+<div><a href='/logs/new'>New Log</a></div>
+

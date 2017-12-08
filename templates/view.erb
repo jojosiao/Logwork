@@ -1,0 +1,7 @@
+<% for @log in @lw.getlog %>
+  <% lognumber, log = @log.split "|" %>
+  <% if lognumber.strip.eql? @lognumber %>
+    <%= log %>   
+  <% end %>
+<% end %>
+<a href="/logs">Logs Listings</a>
