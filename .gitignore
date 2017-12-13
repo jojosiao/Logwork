@@ -2,6 +2,8 @@
 test.txt
 *.gem
 *.rbc
+*.rspec
+Gemfile.lock
 /.config
 /coverage/
 /InstalledFiles
