@@ -40,7 +40,7 @@ post '/logs/create' do
   @lw.filename = "test.txt"
   @lw.lognumber = DateTime.now.strftime "%Y%m%d-%H%I%S"
   @lw.logger = 'Jojo Siao'
-  @lw.log = @log
+  @lw.log = @log.gsub /(\r\n|\n\r|\r|\n)/, '<br/>' 
   @lw.writelog
 
   redirect '/logs'

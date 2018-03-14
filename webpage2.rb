@@ -13,4 +13,22 @@ class WebLogWork < Sinatra::Application
 	  'Hello World!'
 	end
 	
+	
+	get '/logs' do 
+	end
+
+	get '/logs/view/:lognumber' do 
+	end
+
+	get '/logs/new' do
+	end
+
+	post '/logs/create' do
+	end
+
+	
+	delete '/logs/delete/:lognumber' do
+
+	end
+	
 end
