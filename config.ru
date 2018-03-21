@@ -1,0 +1,2 @@
+require './weblogwork'
+run WebLogWork
